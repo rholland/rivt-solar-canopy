@@ -24,13 +24,12 @@ rv.R("""Overview | 80
                         [02] Abbreviations
                         [03] Symbols
 
-    || pages | config | rivt-config.ini | pdf-style2.sty | 1
+    || pages | config | rivt-config.ini | pdf-style3.sty | 1
     || project | resource | project_data.csv | 30,c | [:]
  
     """)
 # %%
 rv.I("""Governing Codes 
-
 
     || image | resource | fig1.png | 15
     Wind load 1 _[f]
@@ -115,33 +114,26 @@ rv.V("""Material Densities and Seismic Models | sub
     ewalldens1 = extwalldl1/(0.5*IN)                            |PCI, KNCM|2,2
     Model loads _[t]
    
-    
     """)
 # %%
 rv.I("""Abbreviations and References
  
-    References _[c]
+    References _[cb]
     || text | data | references.txt | plain
-    
-    """)
 
-rv.I("""--Drawing List 
-    _[page]
     
-    Drawings _[c]
+    Drawings _[cb]
     || text | data | drawing_list.txt | plain
-    """)
 
-rv.I("""--Abbreviations
-     _[page]
-    
-    Abbreviations - Terms _[c]
+        
+    Abbreviations - Terms _[cb]
+
     || text | data | abbrev_terms.tex | plain
 
-    _[page]
     
     Abbreviations - Math _[c]
-    || text | data | abbrev_math.tex | plain
+
+    || text | data | abbrev_math.tex | math
     """)
 
 rv.writedoc("utf, pdf")

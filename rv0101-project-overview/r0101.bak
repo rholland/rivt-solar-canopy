@@ -4,9 +4,9 @@ import rivt.rivttext as rv
 # %%
 rv.R("""Overview | 80 
 
-    This report describes the structural design of a solar canopy covering a
-    residential patio located in the City of Larkspur, California. It includes
-    the design of a concrete slab and stem wall, steel tube frame, and
+    This report describes the structural design of a residential solar canopy
+    covering a a patio located in the City of Larkspur, California. It includes
+    the design of a concrete slab and stem wall, a steel tube frame, and
     attachments of solar panels to the frame. The report is divided into the
     following divisions and subdivisions::
     
@@ -24,13 +24,12 @@ rv.R("""Overview | 80
                         [02] Abbreviations
                         [03] Symbols
 
-    || pages | config | rivt-config.ini | pdf-style2.sty | 1
+    || pages | config | rivt-config.ini | pdf-style3.sty | 1
     || project | resource | project_data.csv | 30,c | [:]
  
     """)
 # %%
 rv.I("""Governing Codes 
-
 
     || image | resource | fig1.png | 15
     Wind load 1 _[f]
@@ -121,25 +120,34 @@ rv.V("""Material Densities and Seismic Models | sub
 rv.I("""Abbreviations and References
  
     References _[c]
-    || text | data | references.txt | literal | noshade
+    || text | data | references.txt | plain
+    
     """)
 
 rv.I("""--Drawing List 
     _[page]
-
+    
     Drawings _[c]
-    || text | data | drawing_list.txt | literal | noshade
+    || text | data | drawing_list.txt | plain
     """)
 
 rv.I("""--Abbreviations
      _[page]
-
+    
     Abbreviations - Terms _[c]
-    || text | data | abbrev_terms.tex | raw | noshade
 
-    _[page]
+    || text | data | abbrev_terms.tex | plain
+
+    Some text to check reasons for stopping 1
+    
+  
+
     Abbreviations - Math _[c]
-    || text | data | abbrev_math.tex | raw | noshade
+
+    || text | data | abbrev_math.tex | math
+
+
+      Some text to check reasons for stopping 2
     """)
 
 rv.writedoc("utf, pdf")

@@ -5,9 +5,9 @@
    ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
 
 
-This report describes the structural design of a solar canopy covering a
-residential patio located in the City of Larkspur, California. It includes
-the design of a concrete slab and stem wall, steel tube frame, and
+This report describes the structural design of a residential solar canopy
+covering a a patio located in the City of Larkspur, California. It includes
+the design of a concrete slab and stem wall, a steel tube frame, and
 attachments of solar panels to the frame. The report is divided into the
 following divisions and subdivisions::
 
@@ -40,8 +40,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
 
-
-.. image:: c:/git/rivt-solar-canopy-project/rivt-solar-canopy-local/resource/rv01-loads/fig1.png
+.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/resource/rv01-loads/fig1.png
    :scale:  15%
    :align: center
 
@@ -65,7 +64,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
 
-.. image:: c:/git/rivt-solar-canopy-project/rivt-solar-canopy-local/resource/rv01-loads/fig2.png
+.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/resource/rv01-loads/fig2.png
    :scale:  45 %
    :align: center
 
@@ -664,6 +663,7 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 
 
 
+
 .. raw:: latex 
 
  ?x?newpage 
@@ -679,7 +679,7 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 ::
 
        
-       55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING
+       55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING 
        
        PR.01: COVER AND INDEX
        PR.02: PROJECT SCOPE
@@ -705,12 +705,12 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
    ?x?begin{center} Abbreviations - Terms ?x?end{center}
 
 
+
 .. raw:: latex
 
-   \begin{center}\textbf{Text}\end{center}
    \setlength{\parindent}{0.2in}
-   \hspace*{4cm} \= \kill
    \begin{tabbing}
+   \hspace*{4cm} \= \kill
        \indent\textbf{}         \>  {}\\
        \indent\textbf{ASD}      \>  {Allowable Stress Design}\\
        \indent\textbf{ACI}      \>  {American Concrete Institute}\\
@@ -787,53 +787,27 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 
 
 
-.. raw:: latex 
+Some text to check reasons for stopping 1
 
- ?x?newpage 
+
 
 .. raw:: latex 
 
    ?x?begin{center} Abbreviations - Math ?x?end{center}
 
 
-.. raw:: latex
 
-   \begin{align}
+.. math:: 
+
+   some added text
+   
+   \begin{align*}
        \bm{D}       & = \textrm{dead load}                               \\
        \bm{L}       & = \textrm{live load}                               \\
-       \bm{D_m}     & = \textrm{module dead load}                        \\
-       \bm{E}       & = \textrm{earthquake load}                         \\
-       \bm{F_a}     & = \textrm{acceleration site coefficient}           \\
-       \bm{F_v}     & = \textrm{velocity site coefficient}               \\
-       \bm{F_N}     & = \textrm{normal wind force}                       \\
-       \bm{GC_M_s}  & = \textrm{net moment static coefficient}           \\
-       \bm{GC_M_d}  & = \textrm{net moment dynamic coefficient}          \\
-       \bm{GC_M}    & = \textrm{net moment coefficient}                  \\
-       \bm{GC_P}    & = \textrm{net pressure coefficient}                \\
-       \bm{GC_P_s}  & = \textrm{net static pressure coefficient}         \\
-       \bm{GC_P_d}  & = \textrm{net dynamic pressure coefficient}        \\
-       \bm{k_1}     & = \textrm{hazard coefficient}                      \\
-       \bm{k_2}     & = \textrm{terrain and structure coefficient}       \\
-       \bm{k_3}     & = \textrm{topography coefficient}                  \\
-       \bm{Kzt}     & = \textrm{topographic Factor}                      \\
-       \bm{K_z}     & = \textrm{velocity pressure exposure coefficient}  \\
-       \bm{MRI}     & = \textrm{mean return interval}                    \\
-       \bm{p_d}     & = \textrm{net design wind pressure on module - Pa} \\
-       \bm{SDOF}    & = \textrm{single degree of freedom}                \\
-       \bm{S_s}     & = \textrm{short period mapped acceleration}        \\
-       \bm{S_D_S}   & = \textrm{site design response acceleration}       \\
-       \bm{S_1}     & = \textrm{1 second period mapped acceleration}     \\
-       \bm{S_M_S}   & = \textrm{short period parameter}                  \\
-       \bm{S_M_1}   & = \textrm{1 second period parameter}               \\
-       \bm{T}       & = \textrm{fundamental period of structure}         \\
-       \bm{M_t_o_r} & = \textrm{wind moment about panel center }         \\
-       \bm{T_0}     & = \textrm{short period spectral cap }              \\
-       \bm{T_S}     & = \textrm{long period spectral cap}                \\
-       \bm{V_b}     & = \textrm{basic wind speed}                        \\
-       \bm{V_B}     & = \textrm{seismic design base shear}               \\
-       \bm{W}       & = \textrm{wind load}                               \\
-       \bm{W}       & = \textrm{seismic weight of structure }            \\
-   \end{align}
+   \end{align*}
 
 
+
+
+  Some text to check reasons for stopping 2
 
