@@ -24,7 +24,7 @@ rv.R("""Overview | 80
                         [02] Abbreviations
                         [03] Symbols
 
-    || pages | config | rivt-config.ini | pdf-style3.sty | 1
+    || pages | config | rivt-config.ini | pdf-style4.sty | 1
     || project | resource | project_data.csv | 30,c | [:]
  
     """)
@@ -119,10 +119,12 @@ rv.V("""Material Densities and Seismic Models | sub
 rv.I("""Abbreviations and References
  
     References _[cb]
+
     || text | data | references.txt | plain
 
     
     Drawings _[cb]
+
     || text | data | drawing_list.txt | plain
 
         
@@ -131,9 +133,9 @@ rv.I("""Abbreviations and References
     || text | data | abbrev_terms.tex | plain
 
     
-    Abbreviations - Math _[c]
+    Abbreviations - Math _[bc]
 
-    || text | data | abbrev_math.tex | math
+    || text | data | abbrev_math.tex | plain
     """)
 
 rv.writedoc("utf, pdf")

@@ -40,7 +40,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
 
-.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/resource/rv01-loads/fig1.png
+.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/rv01-loads/fig1.png
    :scale:  15%
    :align: center
 
@@ -52,7 +52,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
  
-**Figure 1** Wind load 1 ?x?hfill 02 - F01
+**Figure 1** Wind load 1  ?x?hfill 02 - F01
  
 
 
@@ -64,7 +64,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
 
-.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/resource/rv01-loads/fig2.png
+.. image:: c:/git/rivtproject-solar-canopy/rivtlocal-solar-canopy/rv01-loads/fig2.png
    :scale:  45 %
    :align: center
 
@@ -76,7 +76,7 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
 
 
  
-**Figure 2** Wind load 2 ?x?hfill 02 - F02
+**Figure 2** Wind load 2  ?x?hfill 02 - F02
  
 
 
@@ -100,7 +100,7 @@ requirements of the CBC.
    ?x?vspace{.05in}
 
 
-**Table 01** Standards ?x?hfill 02 - T01
+**Table 01** Standards  ?x?hfill 02 - T01
 
 
 .. raw:: latex
@@ -130,7 +130,7 @@ and Residential Codes.
    ?x?vspace{.05in}
 
 
-**Table 02** Load Types ?x?hfill 02 - T02
+**Table 02** Load Types  ?x?hfill 02 - T02
 
 
 .. raw:: latex
@@ -172,7 +172,7 @@ W      Load due to wind pressure            See IBC 1609 and Chapter 5 of this
    ?x?vspace{.05in}
 
 
-**Table 03** Load Combinations ?x?hfill 02 - T03
+**Table 03** Load Combinations  ?x?hfill 02 - T03
 
 
 .. raw:: latex
@@ -210,7 +210,7 @@ Some filler text
    ?x?vspace{.05in}
 
 
-**Table 04** Roof unit dead loads ?x?hfill 03 - T04
+**Table 04** Roof unit dead loads  ?x?hfill 03 - T04
 
 
 .. raw:: latex
@@ -236,7 +236,7 @@ roofdl1     9.0 psf   0.43 KPa  Total roof unit load
    ?x?vspace{.05in}
 
 
-**Table 05** Floor unit dead loads ?x?hfill 03 - T05
+**Table 05** Floor unit dead loads  ?x?hfill 03 - T05
 
 
 .. raw:: latex
@@ -262,7 +262,7 @@ floordl1    10.5 psf   0.50 KPa  Total floor unit load
    ?x?vspace{.05in}
 
 
-**Table 06** Interior wall unit dead loads ?x?hfill 03 - T06
+**Table 06** Interior wall unit dead loads  ?x?hfill 03 - T06
 
 
 .. raw:: latex
@@ -287,7 +287,7 @@ intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
    ?x?vspace{.05in}
 
 
-**Table 07** Exterior wall unit dead loads ?x?hfill 03 - T07
+**Table 07** Exterior wall unit dead loads  ?x?hfill 03 - T07
 
 
 .. raw:: latex
@@ -313,7 +313,7 @@ extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
    ?x?vspace{.05in}
 
 
-**Table 08** Areas ?x?hfill 03 - T08
+**Table 08** Areas  ?x?hfill 03 - T08
 
 
 .. raw:: latex
@@ -336,7 +336,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
 
 
 
-**Eq. 1** Roof weight ?x?hfill 03 - E01
+**Eq. 1** Roof weight  ?x?hfill 03 - E01
 
 
 
@@ -357,7 +357,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
 
 
 
-**Eq. 2** Floor weight ?x?hfill 03 - E02
+**Eq. 2** Floor weight  ?x?hfill 03 - E02
 
 
 
@@ -378,7 +378,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
 
 
 
-**Eq. 3** Partition weight ?x?hfill 03 - E03
+**Eq. 3** Partition weight  ?x?hfill 03 - E03
 
 
 
@@ -399,7 +399,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
 
 
 
-**Eq. 4** Exterior wall weight ?x?hfill 03 - E04
+**Eq. 4** Exterior wall weight  ?x?hfill 03 - E04
 
 
 
@@ -420,7 +420,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
 
 
 
-**Eq. 5** Total building weight ?x?hfill 03 - E05
+**Eq. 5** Total building weight  ?x?hfill 03 - E05
 
 
 
@@ -446,7 +446,7 @@ lenwall2     155.00 ft    47.24 m  exterior wall length 2
    ?x?vspace{.05in}
 
 
-**Table 09** Weights ?x?hfill 03 - T09
+**Table 09** Weights  ?x?hfill 03 - T09
 
 
 .. raw:: latex
@@ -480,7 +480,7 @@ partition weight.
 
 
 
-**Eq. 6** Effective model floor load ?x?hfill 04 - E06
+**Eq. 6** Effective model floor load   ?x?hfill 04 - E06
 
 
 
@@ -501,7 +501,7 @@ partition weight.
 
 
 
-**Eq. 7** Effective model floor density ?x?hfill 04 - E07
+**Eq. 7** Effective model floor density  ?x?hfill 04 - E07
 
 
 
@@ -522,7 +522,7 @@ partition weight.
 
 
 
-**Eq. 8** Effective model roof density ?x?hfill 04 - E08
+**Eq. 8** Effective model roof density  ?x?hfill 04 - E08
 
 
 
@@ -543,7 +543,7 @@ partition weight.
 
 
 
-**Eq. 9** Effective model wall density ?x?hfill 04 - E09
+**Eq. 9** Effective model wall density  ?x?hfill 04 - E09
 
 
 
@@ -569,7 +569,7 @@ partition weight.
    ?x?vspace{.05in}
 
 
-**Table 10** Model loads ?x?hfill 04 - T10
+**Table 10** Model loads  ?x?hfill 04 - T10
 
 
 .. raw:: latex
@@ -588,7 +588,6 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 ==========  =========  ==========  ===================================
 
 
-
 .. raw:: latex
 
    ?x?vspace{.2in}   ?x?textbf{ Abbreviations and References}   ?x?hfill?x?textbf{SECTION [0101] - 5 }
@@ -597,7 +596,7 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 
 .. raw:: latex 
 
-   ?x?begin{center} References ?x?end{center}
+   ?x?begin{center} ?x?textbf{References } ?x?end{center}
 
 
 
@@ -663,15 +662,9 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 
 
 
-
 .. raw:: latex 
 
- ?x?newpage 
-
-
-.. raw:: latex 
-
-   ?x?begin{center} Drawings ?x?end{center}
+   ?x?begin{center} ?x?textbf{Drawings } ?x?end{center}
 
 
 
@@ -694,21 +687,16 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
        PR.11: SITE IMPROVEMENTS
 
 
-
+    
 .. raw:: latex 
 
- ?x?newpage 
-
-
-.. raw:: latex 
-
-   ?x?begin{center} Abbreviations - Terms ?x?end{center}
-
+   ?x?begin{center} ?x?textbf{Abbreviations - Terms } ?x?end{center}
 
 
 .. raw:: latex
 
    \setlength{\parindent}{0.2in}
+   \vspace{-0.3in}
    \begin{tabbing}
    \hspace*{4cm} \= \kill
        \indent\textbf{}         \>  {}\\
@@ -787,27 +775,53 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 
 
 
-Some text to check reasons for stopping 1
-
-
 
 .. raw:: latex 
 
-   ?x?begin{center} Abbreviations - Math ?x?end{center}
+   ?x?begin{center} ?x?textbf{Abbreviations - Math } ?x?end{center}
 
 
+.. raw:: latex
 
-.. math:: 
-
-   some added text
-   
+   \vspace{-.4in}
+   \begingroup
+   \allowdisplaybreaks
    \begin{align*}
        \bm{D}       & = \textrm{dead load}                               \\
-       \bm{L}       & = \textrm{live load}                               \\
+       \bm{L}       & = \textrm{live load}                               \\                 
+       \bm{D_m}     & = \textrm{module dead load}                        \\
+       \bm{E}       & = \textrm{earthquake load}                         \\
+       \bm{F_a}     & = \textrm{acceleration site coefficient}           \\
+       \bm{F_v}     & = \textrm{velocity site coefficient}               \\
+       \bm{F_N}     & = \textrm{normal wind force}                       \\
+       \bm{GC_M_s}  & = \textrm{net moment static coefficient}           \\
+       \bm{GC_M_d}  & = \textrm{net moment dynamic coefficient}          \\
+       \bm{GC_M}    & = \textrm{net moment coefficient}                  \\
+       \bm{GC_P}    & = \textrm{net pressure coefficient}                \\
+       \bm{GC_P_s}  & = \textrm{net static pressure coefficient}         \\
+       \bm{GC_P_d}  & = \textrm{net dynamic pressure coefficient}        \\
+       \bm{k_1}     & = \textrm{hazard coefficient}                      \\
+       \bm{k_2}     & = \textrm{terrain and structure coefficient}       \\
+       \bm{k_3}     & = \textrm{topography coefficient}                  \\
+       \bm{Kzt}     & = \textrm{topographic Factor}                      \\
+       \bm{K_z}     & = \textrm{velocity pressure exposure coefficient}  \\
+       \bm{MRI}     & = \textrm{mean return interval}                    \\
+       \bm{p_d}     & = \textrm{net design wind pressure on module - Pa} \\
+       \bm{SDOF}    & = \textrm{single degree of freedom}                \\
+       \bm{S_s}     & = \textrm{short period mapped acceleration}        \\
+       \bm{S_D_S}   & = \textrm{site design response acceleration}       \\
+       \bm{S_1}     & = \textrm{1 second period mapped acceleration}     \\
+       \bm{S_M_S}   & = \textrm{short period parameter}                  \\
+       \bm{S_M_1}   & = \textrm{1 second period parameter}               \\
+       \bm{T}       & = \textrm{fundamental period of structure}         \\
+       \bm{M_t_o_r} & = \textrm{wind moment about panel center }         \\
+       \bm{T_0}     & = \textrm{short period spectral cap }              \\
+       \bm{T_S}     & = \textrm{long period spectral cap}                \\
+       \bm{V_b}     & = \textrm{basic wind speed}                        \\
+       \bm{V_B}     & = \textrm{seismic design base shear}               \\
+       \bm{W}       & = \textrm{wind load}                               \\
+       \bm{W}       & = \textrm{seismic weight of structure }            \\
    \end{align*}
+   \endgroup
 
-
-
-
-  Some text to check reasons for stopping 2
 

@@ -35,10 +35,10 @@ Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
  Governing Codes                                                    [0101] - 2
 --------------------------------------------------------------------------------
 
-Figure path: resource\rv01-loads\fig1.png
+Figure path: rivtlocal-solar-canopy\rv01-loads\fig1.png
 Fig. 00 - Wind load 1                                                  02 - F00
 
-Figure path: resource\rv01-loads\fig2.png
+Figure path: rivtlocal-solar-canopy\rv01-loads\fig2.png
 Fig. 01 - Wind load 2                                                  02 - F01
 
 The permit approval is under the jurisdiction of the City of Larkspur,
@@ -260,12 +260,12 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 ==========  =========  ==========  ===================================
 
 
-
 --------------------------------------------------------------------------------
  Abbreviations and References                                       [0101] - 5
 --------------------------------------------------------------------------------
 
                                   References                                    
+
     ACI 
     American Concrete Institute 
     38800 Country Club Drive 
@@ -323,11 +323,8 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
     California Residential Code 
     Part 2.5 of Title 24, 2019 Edition
 
-
-
-
-
                                    Drawings                                     
+
     
     55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING 
     
@@ -342,13 +339,10 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
     PR.09: RESIDENCE STRENGTHENING
     PR.10: CARPORT STRENGTHENING
     PR.11: SITE IMPROVEMENTS
-
-
-
-
+    
                              Abbreviations - Terms                              
 
-0.2in4cm\=\
+0.2in-0.3in4cm\=\
 ASD\      Allowable Stress Design
 ACI\      American Concrete Institute
 AISC\     American Institute of Steel Construction
@@ -420,17 +414,41 @@ WWF\      Welded Wire Fabric
 W/\       With
 WP\       Working Point
 
-Some text to check reasons for stopping 1
-
-
 
                              Abbreviations - Math                               
 
-some added text
-
-D& = dead load
+-.4inD& = dead load
 L& = live load
-
-
-  Some text to check reasons for stopping 2
+D_m& = module dead load
+E& = earthquake load
+F_a& = acceleration site coefficient
+F_v& = velocity site coefficient
+F_N& = normal wind force
+GC_M_s& = net moment static coefficient
+GC_M_d& = net moment dynamic coefficient
+GC_M& = net moment coefficient
+GC_P& = net pressure coefficient
+GC_P_s& = net static pressure coefficient
+GC_P_d& = net dynamic pressure coefficient
+k_1& = hazard coefficient
+k_2& = terrain and structure coefficient
+k_3& = topography coefficient
+Kzt& = topographic Factor
+K_z& = velocity pressure exposure coefficient
+MRI& = mean return interval
+p_d& = net design wind pressure on module - Pa
+SDOF& = single degree of freedom
+S_s& = short period mapped acceleration
+S_D_S& = site design response acceleration
+S_1& = 1 second period mapped acceleration
+S_M_S& = short period parameter
+S_M_1& = 1 second period parameter
+T& = fundamental period of structure
+M_t_o_r& = wind moment about panel center 
+T_0& = short period spectral cap 
+T_S& = long period spectral cap
+V_b& = basic wind speed
+V_B& = seismic design base shear
+W& = wind load
+W& = seismic weight of structure 
 
