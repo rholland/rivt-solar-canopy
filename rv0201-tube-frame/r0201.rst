@@ -1,4 +1,8 @@
 
+
+
+
+
 .. raw:: latex
 
    ?x?vspace{.2in}   ?x?textbf{ Minimum Wall Sheathing CRC - First Floor}   ?x?hfill?x?textbf{SECTION [0201] - 1 }
