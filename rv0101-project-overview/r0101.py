@@ -43,7 +43,7 @@ rv.I("""Governing Codes
     requirements of the CBC.
 
     Standards _[t]
-    || table | data | cbc2019_stds.xlsx | 53,l | [:]
+    || table | data | cbc2019_stds.xlsx | 53,l
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
