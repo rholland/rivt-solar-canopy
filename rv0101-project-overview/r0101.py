@@ -24,7 +24,7 @@ rv.R("""Overview | 80 | 1
                         [02] Abbreviations
                         [03] Symbols
 
-    || project | resource | project_data.csv | 30,c | [:]
+    || project | resource | project_data.csv | 30,c | [:] | pdf-style4.sty 
  
     """)
 # %%

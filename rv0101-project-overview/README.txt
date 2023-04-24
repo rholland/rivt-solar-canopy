@@ -2,51 +2,19 @@
 --------------------------------------------------------------------------------
  Overview                                                           [0101] - 1
 --------------------------------------------------------------------------------
-
-This report describes the structural design of a residential solar canopy
-covering a a patio located in the City of Larkspur, California. It includes
-the design of a concrete slab and stem wall, a steel tube frame, and
-attachments of solar panels to the frame. The report is divided into the
-following divisions and subdivisions::
-
-                [01] Loads
-                    [01] Gravity
-                    [02] Wind and Seismic
-                [02] Frame
-                    [01] Steel tubes 
-                    [02] Connections and clips 
-                [03] Foundation 
-                    [01] Slab
-                    [02] Stem wall
-                [04] References and Abbreviations
-                    [01] Codes and Standards
-                    [02] Abbreviations
-                    [03] Symbols
-
 ========  =============  =================  =============================  =====
   Type      No./Date           Name                    Address               Zip
 ========  =============  =================  =============================  =====
  Client       C001         Bryna Holland       15 Blanca Drive, Novato     94947
 Project       P010       Residence Remodel  55 Loring Avenue, Mill Valley  94941
 Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
-========  =============  =================  =============================  =====
-
---------------------------------------------------------------------------------
+========  =============  =================  =============================  =====--------------------------------------------------------------------------------
  Governing Codes                                                    [0101] - 2
 --------------------------------------------------------------------------------
-
 Figure path: rivtlocal-solar-canopy\rv01-loads\fig1.png
 Fig. 00 - Wind load 1                                                  02 - F00
-
 Figure path: rivtlocal-solar-canopy\rv01-loads\fig2.png
 Fig. 01 - Wind load 2                                                  02 - F01
-
-The permit approval is under the jurisdiction of the City of Larkspur,
-California which adopted the 2019 California Building Code [CBC] and the
-2019 California Residential Code [CRC] as the basis for permiting
-construction work. The canopy is designed for compliance with the
-requirements of the CBC.
-
 Table 00 - Standards                                                    02 - T00
 ===================================================  =========  ======
 Loading                                              ASCE-7       2016
@@ -55,11 +23,7 @@ Concrete                                             ACI-318      2014
 Wood-National Design Specifications                  AWC-NDS      2018
 Wood-Special Design Provisions for Wind and Seismic  AWC-SDPWS    2015
 Wood Frame Construction Manual                       AWC-WFCM     2018
-===================================================  =========  ======
-Basic loads and load combinations are derived from the California Building
-and Residential Codes.
-
-Table 01 - Load Types                                                   02 - T01
+===================================================  =========  ======Table 01 - Load Types                                                   02 - T01
 ===  ===================================  ====================================
 D    Dead load                            See IBC 1606 and Chapter 3 of this
                                           publication
@@ -82,8 +46,7 @@ R    Rain load                            See IBC 1611 and Chapter 3 of this
                                           publication
 W    Load due to wind pressure            See IBC 1609 and Chapter 5 of this
                                           publication
-===  ===================================  ====================================
-Table 02 - Load Combinations                                            02 - T02
+===  ===================================  ====================================Table 02 - Load Combinations                                            02 - T02
 ===============  =====================================================
  Equation 16-1                         1.4(D +F)
 ===============  =====================================================
@@ -93,14 +56,9 @@ Table 02 - Load Combinations                                            02 - T02
  Equation 16-5           1.2(D + F) + 1.0E + f1L + l.6H + f2S
  Equation 16-6                     0.9D+ l.0W+ l.6H
  Equation 16-7                  0.9(D + F) + 1.0E+ l.6H
-===============  =====================================================
-
---------------------------------------------------------------------------------
+===============  =====================================================--------------------------------------------------------------------------------
  Gravity Loads and Seismic Mass                                     [0101] - 3
 --------------------------------------------------------------------------------
-
-Some filler text
-
 Table 03 - Roof unit dead loads                                         03 - T03
 ==========  =======  =========  =================================
 variable      value    [value]  description
@@ -111,8 +69,7 @@ ld3         5.0 psf   0.24 KPa  Doug Fir decking 2-in.
 ld4         1.0 psf   0.05 KPa  Doug Fir beams 4x12 at 12 ft o.c.
 -                 -          -  Total
 roofdl1     9.0 psf   0.43 KPa  Total roof unit load
-==========  =======  =========  =================================
-Table 04 - Floor unit dead loads                                        03 - T04
+==========  =======  =========  =================================Table 04 - Floor unit dead loads                                        03 - T04
 ==========  ========  =========  ==========================
 variable       value    [value]  description
 ==========  ========  =========  ==========================
@@ -122,8 +79,7 @@ ld3          4.0 psf   0.19 KPa  2x10 joists at 16 in. o.c.
 ld4          1.5 psf   0.07 KPa  fixtures
 -                  -          -  Total
 floordl1    10.5 psf   0.50 KPa  Total floor unit load
-==========  ========  =========  ==========================
-Table 05 - Interior wall unit dead loads                                03 - T05
+==========  ========  =========  ==========================Table 05 - Interior wall unit dead loads                                03 - T05
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -132,8 +88,7 @@ ld2           2 psf   0.10 KPa  2x4 studs at 16" o.c.
 ld3         1.5 psf   0.07 KPa  fixtures
 -                 -          -  Total
 intwalldl1    9 psf   0.43 KPa  Total interior wall unit load
-==========  =======  =========  =============================
-Table 06 - Exterior wall unit dead loads                                03 - T06
+==========  =======  =========  =============================Table 06 - Exterior wall unit dead loads                                03 - T06
 ==========  =======  =========  =============================
 variable      value    [value]  description
 ==========  =======  =========  =============================
@@ -143,8 +98,7 @@ ld3         3.0 psf   0.14 KPa  5/8 in sheet rock
 ld4         1.5 psf   0.07 KPa  fixtures
 -                 -          -  Total
 extwalldl1  8.5 psf   0.41 KPa  Total exterior wall unit load
-==========  =======  =========  =============================
-Table 07 - Areas                                                        03 - T07
+==========  =======  =========  =============================Table 07 - Areas                                                        03 - T07
 ==========  ==========  =========  ======================
 variable         value    [value]  description
 ==========  ==========  =========  ======================
@@ -154,8 +108,6 @@ htwall1        9.00 ft     2.74 m  wall height
 lenwall1     110.00 ft    33.53 m  interior wall length
 lenwall2     155.00 ft    47.24 m  exterior wall length 2
 ==========  ==========  =========  ======================
-
-
 
 Equ. 01 - Roof weight                                                   03 - E01
 
@@ -198,17 +150,9 @@ exwallwt1   11.86 kip   52.74 KN  Exterior wall weight  [04]
 totwt1      48.67 kip  216.48 KN  Total building weight  [05]
 ==========  =========  =========  ===========================
 
-  
-
 --------------------------------------------------------------------------------
  Material Densities and Seismic Models                              [0101] - 4
 --------------------------------------------------------------------------------
-
-Because the T&G roof is relatively more flexible, the effective floor load
-for seismic models is calculated as the sum of the floor and all of the
-partition weight.
-
-
 Equ. 06 - Effective model floor load                                    04 - E06
 
           flrwt₁ + partwt₁
@@ -259,13 +203,10 @@ erfdens1     0.04 pci  11.31 KNcM  Effective model roof density  [08]
 ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
 ==========  =========  ==========  ===================================
 
-
 --------------------------------------------------------------------------------
  Abbreviations and References                                       [0101] - 5
 --------------------------------------------------------------------------------
-
                                   References                                    
-
     ACI 
     American Concrete Institute 
     38800 Country Club Drive 
@@ -321,10 +262,7 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
     California Building Standards Commission
     2525 Natomas Park Dr # 130, Sacramento, CA 95833
     California Residential Code 
-    Part 2.5 of Title 24, 2019 Edition
-
-                                   Drawings                                     
-
+    Part 2.5 of Title 24, 2019 Edition                                   Drawings                                     
     
     55 LORING - RESIDENCE REMODEL AND SEISMIC STRENGTHENING 
     
@@ -338,10 +276,7 @@ ewalldens1   0.12 pci  32.05 KNcM  Effective model wall density  [09]
     PR.08: MASTER BATH, CLOSET, LAUNDRY
     PR.09: RESIDENCE STRENGTHENING
     PR.10: CARPORT STRENGTHENING
-    PR.11: SITE IMPROVEMENTS
-    
-                             Abbreviations - Terms                              
-
+    PR.11: SITE IMPROVEMENTS                             Abbreviations - Terms                              
 0.2in-0.3in4cm\=\
 ASD\      Allowable Stress Design
 ACI\      American Concrete Institute
@@ -413,10 +348,7 @@ UNO\      Unless Noted Otherwise
 WWF\      Welded Wire Fabric
 W/\       With
 WP\       Working Point
-
-
                              Abbreviations - Math                               
-
 -.4inD& = dead load
 L& = live load
 D_m& = module dead load
@@ -451,4 +383,3 @@ V_b& = basic wind speed
 V_B& = seismic design base shear
 W& = wind load
 W& = seismic weight of structure 
-
