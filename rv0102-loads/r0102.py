@@ -1,9 +1,6 @@
 #! python
 # %%
-import rivtlib.rv_lib as rv
-
-rv.D("dev", "default", "Loads - Residence Renovations", "9")
-
+import rivt.rivtapi as rv
 # %%
 # %%
 rv.I("""[01]_  Load Combinations 

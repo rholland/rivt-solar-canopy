@@ -1,6 +1,6 @@
 #! python
 # %%
-import rivt.rivttext as rv
+import rivt.rivtapi as rv
 # %%
 rv.R("""Overview | 80 | 1
 
@@ -24,7 +24,7 @@ rv.R("""Overview | 80 | 1
                         [02] Abbreviations
                         [03] Symbols
 
-    || project | resource | project_data.csv | 30,c | [:] | pdf-style4.sty 
+    || project | resource | project_data.csv | 30,c | [:] 
  
     """)
 # %%
@@ -43,7 +43,7 @@ rv.I("""Governing Codes
     requirements of the CBC.
 
     Standards _[t]
-    || table | data | cbc2019_stds.xlsx | 53,l
+    || table | data | cbc2019_stds.xlsx | 53,l | [:]
  
     Basic loads and load combinations are derived from the California Building
     and Residential Codes.
@@ -137,4 +137,4 @@ rv.I("""Abbreviations and References
     || text | data | abbrev_math.tex | plain
     """)
 
-rv.writedoc("utf, pdf")
+rv.writedoc("utf, pdf:pdf-style4.sty")

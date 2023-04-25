@@ -10,7 +10,9 @@
  Client       C001         Bryna Holland       15 Blanca Drive, Novato     94947
 Project       P010       Residence Remodel  55 Loring Avenue, Mill Valley  94941
 Drawings  Dec. 1 , 2020   PR-01 to PR-11    55 Loring Avenue, Mill Valley  94941
-========  =============  =================  =============================  =====.. raw:: latex
+========  =============  =================  =============================  =====
+
+.. raw:: latex
 
    ?x?vspace{.2in}   ?x?textbf{ Governing Codes}   ?x?hfill?x?textbf{SECTION [0101] - 2 }
    ?x?newline   ?x?vspace{.05in}   {?x?color{black}?x?hrulefill}
@@ -89,6 +91,7 @@ Wood Frame Construction Manual                       AWC-WFCM      2018
 ===================================================  ==========  ======
 
 
+
 .. raw:: latex
 
    ?x?vspace{.05in}
@@ -130,6 +133,7 @@ W      Load due to wind pressure            See IBC 1609 and Chapter 5 of this
 =====  ===================================  ===================================
 
 
+
 .. raw:: latex
 
    ?x?vspace{.05in}
@@ -156,6 +160,7 @@ Equation 16-5         1.2(D + F) + 1.0E + f1L + l.6H + f2S
 Equation 16-6         0.9D+ l.0W+ l.6H
 Equation 16-7         0.9(D + F) + 1.0E+ l.6H
 ====================  =====================================================
+
 .. raw:: latex
 
    ?x?vspace{.2in}   ?x?textbf{ Gravity Loads and Seismic Mass}   ?x?hfill?x?textbf{SECTION [0101] - 3 }

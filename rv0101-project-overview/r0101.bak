@@ -1,6 +1,6 @@
 #! python
 # %%
-import rivt.rivttext as rv
+import rivt.rivtapi as rv
 # %%
 rv.R("""Overview | 80 | 1
 
@@ -24,7 +24,7 @@ rv.R("""Overview | 80 | 1
                         [02] Abbreviations
                         [03] Symbols
 
-    || project | resource | project_data.csv | 30,c | [:] | pdf-style4.sty 
+    || project | resource | project_data.csv | 30,c | [:] 
  
     """)
 # %%
@@ -137,4 +137,4 @@ rv.I("""Abbreviations and References
     || text | data | abbrev_math.tex | plain
     """)
 
-rv.writedoc("utf, pdf")
+rv.writedoc("utf, pdf:pdf-style4.sty")
